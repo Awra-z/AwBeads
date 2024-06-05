@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AwBeads | Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <!-- favicon -->
+    <link rel="icon" href="asset/c6-removebg-preview.png">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-aos="fade" style="background-color: #C3FF93;">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#" data-aos="fade-up" style="font-family: pacifico; color: white;">Aw<span style="color: #FF8AAE;">Beads</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!-- Menu Links -->
+                <ul class="navbar-nav mx-auto" style="font-family: Italiana;">
+                    <li class="nav-item">
+                        <a class="nav-link  " data-aos="fade-up" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-aos="fade-up" href="about.html">About Us</a>
+                        <!-- bisa juga ditambahin fw-bold, tapi jadi ga estetik -->
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-aos="fade-up" href="product.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="product.html">Bracelet</a></li>
+                            <li><a class="dropdown-item" href="product.html">Phonestrap</a></li>
+                            <li><a class="dropdown-item" href="product.html">Clay Keychains</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-aos="fade-up" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <!-- Login Button -->
+                <button class="btn" type="submit" data-aos="fade-up"><a style="text-decoration: none; color: black; font-family: Montserrat;" href="login.html">LOGIN</a></button>
+            </div>
+        </div>
+    </nav>
+    <!-- welcome -->
+    <div class="container-fluid d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="container text-center" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="welcome-text">
+                <span class="primary">Welcome</span>
+            </h1>
+            <div class="shoping d-flex justify-content-center align-items-center">
+                <img src="asset/bintang-removebg-preview.png" style="width: 70px;" alt="" data-aos="zoom-in" data-aos-delay="300">
+                <h3 style="font-family: 'Italiana', serif; margin: 0 20px;" data-aos="fade-up" data-aos-delay="500">Enjoy to shopping</h3>
+                <img src="asset/bintang-removebg-preview.png" style="width: 70px;" alt="" data-aos="zoom-in" data-aos-delay="300">
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="background">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -210px;" class="waves">
+        <path fill="#eaf2ff" fill-opacity="1" d="M0,192L24,202.7C48,213,96,235,144,218.7C192,203,240,149,288,112C336,75,384,53,432,42.7C480,32,528,32,576,53.3C624,75,672,117,720,138.7C768,160,816,160,864,160C912,160,960,160,1008,149.3C1056,139,1104,117,1152,106.7C1200,96,1248,96,1296,117.3C1344,139,1392,181,1416,202.7L1440,224L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path>
+    </svg>
+        <form class="form-login" data-aos="fade-up" data-aos-duration="1500">
+            <div class="form-value">
+                <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200">Login</h2>
+
+                <div class="inputbox" data-aos="fade-up" data-aos-delay="300">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" id="email" name="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="inputbox" data-aos="fade-up" data-aos-delay="400">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="forget" data-aos="fade-up" data-aos-delay="500">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+
+                <div class="buttons text-center fw-bold" data-aos="fade-up" data-aos-delay="600">Log In</div>
+                <div class="logen" data-aos="fade-up" data-aos-delay="700">
+                    <div class="connect-with text-center mt-3">Or Connect With</div>
+                    <div class="logos d-flex justify-content-evenly fs-4">
+                        <a href="https://discord.com" target="_blank">
+                            <i class="bi bi-discord" style="color: #8571ea;"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank">
+                            <i class="bi bi-facebook text-primary"></i>
+                        </a>
+                        <a href="https://whatsapp.com" target="_blank">
+                            <i class="bi bi-whatsapp text-success"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="register" data-aos="fade-up" data-aos-delay="800">
+                    <p>Don't have an account? <a href="#">Sign Up</a></p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer" style="background-color: #E3F4F5;" data-aos="fade-up" data-aos-duration="1000">
+        <div class="footer__container container">
+            <h1 class="footer__title">AwBeads</h1>
+
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="index.html" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="about.html" class="footer__link">About Us</a>
+                </li>
+                <li class="footer__item">
+                    <a href="product.html" class="footer__link">Products</a>
+                </li>
+                <li class="footer__item">
+                    <a href="contact.html" class="footer__link">Contact Us</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="bi bi-twitch"></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+            &#169; 2024 awra. All rights reserved.
+        </span>
+        </div>
+    </footer>
+
+    <!-- AOS -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- AOS END -->
+
+</body>
+
+</html>
